@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    max-width: 1400px;
+    display: block;
+    margin: auto;
+ 
+    min-height: 100vh;
+    background: #dce1f1;
+    font-family: sans-serif;
+}
+
+.logo{
+margin-left: 40px !important;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+   border-radius: 10px;
+    align-items: center;
+    z-index: 9;
+    background: #8a96ac;
+    
+}
+
+.link-group{
+    list-style: none;
+    display: flex;
+    justify-content:end;
+    
+}
+
+.link a{
+    color: #000000;
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 10px;
+    margin: 10px 20px;
+    line-height: 80px;
+    transition: .5s;
+    font-size: 20px;
+    font-weight: 300;;
+}
+
+.link a:hover, .link.active a{
+    opacity: 1;
+    color:#ba396d;
+    
+}
+.p-img{
+ height:80vh;
+border-radius:50%;
+margin-top: 100px;
+}
+
+.h-txt{
+    font-family:Roboto slab ;
+    font-size: 40px;
+    padding-bottom: 50px;
+    padding-top: 180px;
+  margin-bottom: 100px;
+  color: #ba396d;
+}
+.h-txt i{
+    padding:15px;
+    color:#000000 !important;
+    
+}
+.h-txt font{
+    color: #000  !important;
+}
+.btn-cv{
+    font-family:roboto slab;
+    background-color:#ba396d;
+    color:#ffffff;
+    font-size:15px;
+    border:1px solid ;
+    border-radius: 7px;
+    height:50px;
+    width:150px;
+    
+
+
+}
+
+.container{
+    background-color: #dce1f1;
+    height:80vh;
+    width:100%;
+    border:2px solid #000;
+    border-radius: 7px;
+    margin-top: 50px;
+    padding: 20px;
+    
+
+}
+/*ABOUT US SECTION*/
+.main-section {
+	width: 100%;
+	float: left;
+    
+	
+}
+.width-100 {
+	width: 100%;
+	float: left;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.heading-text {
+	width: 100%;
+	float: left;
+	font-size: 35px;
+	text-align: center;
+text-decoration: underline;
+	color:#ba396d;
+}
+.about-img {
+	width:50%;
+    height: 70vh;
+    border-radius: 17%;
+	padding: 0px 60px;
+	margin-top: 20px;
+}
+.about-us {
+	width: 50%;
+	float: right;
+	padding: 20px;
+}
+.about-us p {
+	font-size: 18px;
+	margin-top: 15px;
+	line-height: 27px;
+}
+
+/*****SKILL SECTION*****/
+.skill {
+	margin-top: 30px;
+	font-size: 17px;
+}
+.skill span {
+	float: right;
+}
+.skill div{
+	width: 100%;
+	float: right;
+	margin-top: 5px;
+	background: #e7e7e7;
+	border-radius: 20px;
+}
+
+.skill div span {
+	background:#ba396d;
+	height: 5px;
+	float: left;
+}
+.SKILLS{
+    background-color: #dce1f1;
+    height:30vh;
+    width:50%;
+    border:2px solid #000;
+    border-radius: 7px;
+    margin-top: 50px;
+    padding: 30px;
+
+}
+.btn2-cv{
+    font-family:roboto slab;
+    background-color:#ba396d;
+    color:#ffffff;
+    font-size:15px;
+    border:1px solid ;
+    border-radius: 7px;
+    height:50px;
+    width:150px;
+    margin-top:20px;
+    
+
+
+
+}
+.card1{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+ 
+  border-radius: 7px;
+height: 40vh;
+float: left;
+ background-color: #fff6f9;
+  padding: 10px;
+  margin:10px;
+  ;
+}
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card1 img {
+  border-radius: 5px 5px 0 0;
+  height:200px;
+  width:80%;
+}
+
+.container1 {
+  padding: 2px 16px;
+}
+
+.service{
+    background-color: #000;
+    height: 400px;
+    padding: 30px;
+    margin:0px;
+    margin-top: 40px !important;
+    width:100%;
+    color:#ba396d;
+    font-size: 20px;
+    text-align: center;
+}
+.box{
+    background-color: #dce1f1;
+    height:40vh;
+    width:30%;
+    border:2px solid #000;
+    border-radius: 7px;
+    margin-top: 50px;
+    padding: 30px;
+
+}
+.ctn{
+    color:#ba396d;
+    font-size:20px;
+   text-align: center;
+   padding: 30px;
+}
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color:#ba396d;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color:#ba396d;
+}
+.des{
+  color:#ba396d;
+  text-decoration: none;
+  font-size:20px;
+  font-weight: 700;
+}
